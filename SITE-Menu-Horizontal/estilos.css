@@ -1,0 +1,41 @@
+.fundo-cinza{
+    background-color: #333333;
+}
+.topo{
+    padding: 20px;
+    color: rgb(6, 22, 107);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.cor-letra{
+    color: rgb(90, 107, 190);
+}
+
+.menu{
+    display: flex;
+}
+
+/* altera todas as tags li que estiveram dentro da classe .menu */
+.menu li{
+    list-style: none;
+    /*border: 1px solid white;*/
+    text-align: center;
+}
+
+.menu li a{
+    color: #1ce26e;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+.menu li a:hover{
+    background-color: rgb(20, 23, 26);
+    color: #333333;
+    transition:  1.4;
+}
+
+.content{
+    height: 80vh;
+}
